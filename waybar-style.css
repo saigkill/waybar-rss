@@ -1,0 +1,14 @@
+/* In deine Waybar style.css einfügen */
+
+#custom-rss {
+    font-size: 14px;
+    padding: 0 10px;
+}
+
+#custom-rss.has-articles {
+    color: #a6e3a1;  /* grün — neue Artikel */
+}
+
+#custom-rss.no-articles {
+    color: #6c7086;  /* dezent — keine neuen Artikel */
+}

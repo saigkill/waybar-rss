@@ -1,0 +1,13 @@
+// In config.jsonc unter modules-center (oder modules-right):
+// "custom/rss",
+
+"custom/rss": {
+    "format": "{}",
+    "exec": "waybar-rss.py read",
+    "on-click": "waybar-rss.py open",
+    "on-click-right": "waybar-rss.py generate",
+    "return-type": "json",
+    "interval": 300,
+    "signal": 5,
+    "tooltip": true
+}

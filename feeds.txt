@@ -1,0 +1,5 @@
+# RSS-Feeds — eine URL pro Zeile, Kommentare mit #
+https://news.ycombinator.com/rss
+https://www.heise.de/rss/heise.rdf
+https://feeds.bbci.co.uk/news/rss.xml
+https://www.phoronix.com/rss.php
