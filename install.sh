@@ -45,6 +45,14 @@ TIMER
 systemctl --user daemon-reload
 systemctl --user enable --now waybar-rss.timer
 
+# Verifikation
+if systemctl --user is-active --quiet waybar-rss.timer; then
+    echo "✓ systemd-Timer aktiv"
+else
+    echo "✗ systemd-Timer konnte nicht aktiviert werden."
+    echo "  Führe manuell aus: systemctl --user enable --now waybar-rss.timer"
+fi
+
 echo ""
 echo "=== Fertig ==="
 echo ""
